@@ -1,80 +1,91 @@
-:root {
-    --light: #c9ffc9;
-    --dark: #011B10;
-    --accent: #1ad527;
+body{
+  text-align:center;
+  font-family:Open Sans,sans-serif;
+  background-color:#8A71C9;
+  color:#ffffff;
+  margin: 0%;
+  margin: 0px 0px 30px 0px;
 }
 
-body {
-    -webkit-font-smoothing: antialiased;
-    font-size:18px;
-    background-color: var(--light);
-    color:var(--dark);
-    display: flex;
-    justify-content: center;
-    font-family: 'Roboto Mono', monospace;
+h1{
+  font-size:60px;
+  font-weight:300;
 }
 
-strong {
-    background-color: var(--accent)
-}
-.container {
-    max-width: 1200px;
+h2{
+  color:#2a0074;
+  font-size:40px;
 }
 
-.hero {
-    display: flex;
-    height: 100vh;
-    flex-direction: column;
-    justify-content: center;
+h3{
+font-size:22px;
+font-style:italic;
 }
 
-.hero__title {
-    font-size: 2.5rem;
-    line-height: 4rem;
-}
-.hero__text {
-    font-size: 2rem;
-    line-height: 3rem; 
+p{
+  font-size:20px;
+  line-height: 1.5
 }
 
-.hero__social {
-    display: flex;
-    margin: 25px 0;
+img{
+  width:100%;
 }
 
-ul {
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
+.titulo-verde{
+  color:#04ff9f;
 }
 
-li {
-    list-style: none;
-    margin-left: 10px;
+.titulo-vermelho{
+  color:#FF9E9E;
 }
 
-a:hover {
-    text-decoration: underline;
+.titulo-amarelo{
+  color:#ffe36d;
 }
 
-nav {
-    display: block;
+section{
+  width:60%;
+  margin:0 auto;
 }
 
-.social-icon {
-    width:50px;
-    color:var(--dark);
+section section{
+  width:100%
 }
 
-a {
-    color: var(--accent);
-    text-decoration: none;
+ul{
+  list-style-type:none;
+  line-height:2;
+  padding-left:0;
 }
 
-a:hover {
-    text-decoration: underline;
-    background-color: var(--dark)
+a{
+  text-decoration: none;
+  color:#99ffff;
+  font-weight:700;
+}
+
+.principal{
+  background-color:#FF6CB5;
+  height: 40px;
+  max-width:60%;
+  margin:0 auto;
+}
+
+.principal ul li a{
+  color:white;
+  text-decoration: underline;
+  line-weight: normal;
+}
+
+.principal li{
+  display: inline-block;
+  line-height: 2.5;
+  margin: 0 89px
+}
+
+button{
+  background-color:#41f341;
+  border: 1px solid transparent;
+  padding: 2px 20px;
+  border-radius: 3px;
 }
